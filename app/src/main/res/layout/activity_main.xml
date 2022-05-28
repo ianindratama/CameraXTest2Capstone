@@ -13,6 +13,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <SurfaceView
+        android:id="@+id/overlay"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintStart_toStartOf="@id/view_finder"
+        app:layout_constraintEnd_toEndOf="@id/view_finder"
+        app:layout_constraintBottom_toBottomOf="@id/view_finder"
+        app:layout_constraintTop_toTopOf="@id/view_finder" />
+
     <ImageButton
         android:id="@+id/camera_capture_button"
         android:layout_width="92dp"
